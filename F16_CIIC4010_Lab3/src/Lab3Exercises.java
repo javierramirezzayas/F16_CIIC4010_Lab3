@@ -9,6 +9,10 @@ public class Lab3Exercises {
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		myFrame.setLocation(600, 300); //Set Location to approximately center based on the computer screen.
 		myFrame.setSize(200, 200); //Set size to 200x200.
+		
+        MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
+        
 		myFrame.setVisible(true);
 		
 	}
