@@ -29,38 +29,38 @@ public class MyPanelClass extends JPanel {
  
                         //Paint the background
                         //START
-                        g.setColor(Color.GRAY);
+                        g.setColor(Color.RED);
                         g.fillRect(x1, y1, width + 1, height + 1);
-//                       
-//                        //Draw a border
-//                        g.setColor(Color.YELLOW);
-//                        g.drawRect(x1, y1, width, height);
-//                        //Drawing another border with the same color
-//                        g.drawRect(x1 + 5, y1 + 5, width - 10, height - 10);
-//                        
-//                        //Drawing lines
-//                        g.setColor(Color.WHITE);
-//                        g.drawLine(x1, y1, x2, y2);
-//                        g.setColor(Color.GREEN);
-//                        g.drawLine(x3, y3, x4, y4);
-//
-//                        
-//                        //Drawing Oval
-//                        g.setColor(Color.LIGHT_GRAY);
-//                        g.fillOval(x5, y5, 55, 55);
-//                        
-//                        //Drawing Polygon (Arrow)
-//                        Polygon p = new Polygon();
-//                        p.addPoint(x1 + 5, y1 + 25);
-//                        p.addPoint(x1 + 20, y1 + 10);
-//                        p.addPoint(x1 + 35, y1 + 25);
-//                        p.addPoint(x1 + 25, y1 + 25);
-//                        p.addPoint(x1 + 25, y1 + 45);
-//                        p.addPoint(x1 + 15, y1 + 45);
-//                        p.addPoint(x1 + 15, y1 + 25);
-//                        g.setColor(Color.YELLOW);
-//                        g.fillPolygon(p);
-//                        //END
+                       
+                        //Draw a stripe
+                        g.setColor(Color.WHITE);
+                        g.fillRect(x1, y1, width, height);
+                        //Drawing another border with the same color
+                        g.fillRect(x1 + 5, y1 + 5, width - 10, height - 10);
+                        
+                        //Drawing lines
+                        g.setColor(Color.WHITE);
+                        g.drawLine(x1, y1, x2, y2);
+                        g.setColor(Color.GREEN);
+                        g.drawLine(x3, y3, x4, y4);
+
+                        
+                        //Drawing Oval
+                        g.setColor(Color.LIGHT_GRAY);
+                        g.fillOval(x5, y5, 55, 55);
+                        
+                        //Drawing Polygon (Arrow)
+                        Polygon p = new Polygon();
+                        p.addPoint(x1 + 5, y1 + 25);
+                        p.addPoint(x1 + 20, y1 + 10);
+                        p.addPoint(x1 + 35, y1 + 25);
+                        p.addPoint(x1 + 25, y1 + 25);
+                        p.addPoint(x1 + 25, y1 + 45);
+                        p.addPoint(x1 + 15, y1 + 45);
+                        p.addPoint(x1 + 15, y1 + 25);
+                        g.setColor(Color.YELLOW);
+                        g.fillPolygon(p);
+                        //END
                         
                         //Drawing Polygon(Star)
                         Polygon p2 = new Polygon() ;
